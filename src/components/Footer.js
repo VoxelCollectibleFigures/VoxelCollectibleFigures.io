@@ -15,7 +15,7 @@ const useStyles = createUseStyles({
     justifyContent: "center",
     color: "white",
     alignItems: "center",
-    backgroundColor: "#263d2d",
+    backgroundColor: "#6700be",
     padding: 12,
     "& h2": {
       color: "white",

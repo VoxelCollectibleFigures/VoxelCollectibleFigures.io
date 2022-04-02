@@ -53,7 +53,7 @@ const useStyles = createUseStyles({
     "& > div": {
       width: 32,
       height: 32,
-      background: "url(./logo.png)",
+      background: "url(/logo.png)",
       cursor: "pointer",
       backgroundSize: "cover",
       borderRadius: "50%",
@@ -130,13 +130,14 @@ const App = () => {
 
         <img
           className={classes.cover}
-          src="cover.png"
+          src="/cover.png"
           alt="A one-color background with the text 'vcf - voxelcollectiblefigures' on it in pixelart"
         />
         <div className={classes.content}>
           <Routes>
             <Route path="/" element={<Welcome />} />
             <Route path="/clubhouse/:figure" element={<Clubhouse />} />
+            <Route path="/clubhouse" element={<Clubhouse />} />
             <Route path="/admin" element={<Admin />} />
           </Routes>
         </div>

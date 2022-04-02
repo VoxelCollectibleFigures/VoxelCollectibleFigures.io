@@ -57,7 +57,7 @@ const Welcome = () => {
         className={classes.button}
         type="primary"
         onClick={() => {
-          navigate("/claim");
+          navigate("/clubhouse");
         }}
       >
         Visit the Clubhouse
